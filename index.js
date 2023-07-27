@@ -14,7 +14,7 @@ await client.connect();
 console.log("Mongo is connected 🚀😎🎇");
 app.use(express.json())
 app.get("/", function (request, response) {
-    response.send("🙋‍♂️, 🌏 🎊✨🤩");
+    response.send("API is running ! 🎊✨🤩");
 });
 app.use('/users', usersRouter)
 app.use('/bags', bagsRouter)
